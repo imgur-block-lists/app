@@ -9,8 +9,9 @@
     "src/**/__tests__/*"
   ],
   "compilerOptions": {
+    "strict": true,
     "composite": true,
-    "baseUrl": "../foobar",
+    "baseUrl": "../app",
     "paths": {
       "@/*": ["./src/*"]
     }
